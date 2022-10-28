@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+#foto{
+    width: 10%;
+    height: 100px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+    padding: 8px 50px;
+}
+.nav{
+    display: flex;
+    gap: 30px;
+
+}
+.nav a{
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #0e3742;
+    text-transform: uppercase;
+   -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+   text-decoration: none;
+   line-height: 0.70em;
+   outline: none;
+   animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%{
+        color:#0e3742;
+        text-shadow: none;
+    }
+    100%{
+        color:#fff;
+        text-shadow: 0 0 10px red,
+        0 0 20px red,
+        0 0 40px red,
+        0 0 80px red,
+
+    }
+}
+.main  {
+    display: flex;
+    background: url(https://i.fbcd.co/products/original/pirate-skull-with-sabres-jolly-roger-emblem-pw-6af6cd2a4b3436a721b178e8b44c66af24cdf258588d46a39a516053c6d2d433.jpg);
+    height: 85.3vh;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    
+    
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    gap: 40px;
+}
+.article{
+    display: flex;
+    height: 50px;
+}
+    
+
+.shop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 350px;
+    height: 220px;
+    margin-top: -80px;
+
+    font-size: 50px;
+    text-decoration: none;
+}
+#shop1{
+    background: url(https://th.bing.com/th/id/R.4e387c847b7080f0922b45c1f05f5d39?rik=R0BB1e%2fonfaOog&pid=ImgRaw&r=0);
+    background-size: 315px 210px;
+}
+#shop2{
+    background: url(https://th.bing.com/th/id/OIP.2GmjEE4SIC2i7ftk0aWFZgHaHa?pid=ImgDet&rs=1);
+    background-size: 350px 250px;
+}
+#shop3{
+    background: url(https://th.bing.com/th/id/R.07af3810dbbf7ad8176fcd12d3994654?rik=wMFQiUWp5ir1Iw&riu=http%3a%2f%2fd1f7geppf3ca7.cloudfront.net%2forigin%2f265330%2frumlegendary70cl.jpg&ehk=T1y65iDETKVMKtq9Hv999OUPaDJBiPolOvemr5%2b41Ww%3d&risl=&pid=ImgRaw&r=0);
+    background-size: 330px 215px;
+}
+#shop4{
+    background: url(https://th.bing.com/th/id/R.cb2ab4c3031bdc614438566f288222c7?rik=JsA0Pkz0xkMTlg&pid=ImgRaw&r=0);
+    background-size: 100%;
+}
+#shop5{
+    background: url(https://2.bp.blogspot.com/-5MT-Sfd_4Yo/U9BRjx94PSI/AAAAAAAAATY/wa_GKl8EaLE/s1600/Dollarphotoclub_11948055.jpg);
+    background-size: 100%;
+}
+#shop6{
+    background: url(https://th.bing.com/th/id/OIP.h6i0MrUgoJZE39l7mSP-jgHaEH?pid=ImgDet&rs=1);
+    background-size: 100% 100%; 
+    
+}
